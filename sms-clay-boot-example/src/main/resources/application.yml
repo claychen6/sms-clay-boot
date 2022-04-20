@@ -1,0 +1,8 @@
+server:
+  port: 8081
+
+sms:
+  aliyun:
+    sign-name: ssss
+    access-key-id: ssss
+    access-key-secret: ssss

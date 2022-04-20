@@ -12,6 +12,7 @@
     <modules>
         <module>sms-clay-boot-autoconfigure</module>
         <module>sms-clay-boot-starter</module>
+        <module>sms-clay-boot-example</module>
     </modules>
 
     <properties>
@@ -43,6 +44,12 @@
             <dependency>
                 <groupId>com.clay</groupId>
                 <artifactId>sms-clay-boot-autoconfigure</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.clay</groupId>
+                <artifactId>sms-clay-boot-starter</artifactId>
                 <version>${revision}</version>
             </dependency>
         </dependencies>

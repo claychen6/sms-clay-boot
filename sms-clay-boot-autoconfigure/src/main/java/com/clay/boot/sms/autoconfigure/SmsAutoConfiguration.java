@@ -18,6 +18,6 @@ public class SmsAutoConfiguration {
     @ConditionalOnProperty(prefix = SmsProperties.PREFIX_ALIYUN, name = "sign-name")
     public SmsSender aliyunSmsSender(SmsProperties smsProperties) {
         SmsProperties.Aliyun aliyun = smsProperties.getAliyun();
-        return new AliSmsSender();
+        return new AliSmsSender(aliyun);
     }
 }
