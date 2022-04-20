@@ -14,6 +14,6 @@ public class AliSmsSender implements SmsSender {
 
     @Override
     public void send() {
-        System.out.println("test");
+        System.out.println("AliSmsSender send success.");
     }
 }
